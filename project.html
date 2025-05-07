@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DANKACH SHIPPING AND LOGISTICS</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+    .rubik-font {
+      font-family: 'Rubik', sans-serif;
+    }
+    .overlay-gradient {
+      background: linear-gradient(to top, rgba(255, 99, 99, 0.95), rgba(255, 99, 99, 0.7), transparent);
+    }
+    .fade-slide-up {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1.2s ease-out forwards;
+    }
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+  <script>AOS.init();</script>
+
+  <!-- Header -->
+ <!-- Header -->
+<header class="relative bg-blue-900 text-white">
+  <!-- Header Image Grid -->
+  <div class="grid grid-cols-2 h-64">
+    <div class="relative">
+      <img src="./shipping.project/containers-paint-1024x609.jpg" class="w-full h-full object-cover" alt="Header Image 1">
+    </div>
+    <div class="relative">
+      <img src="./shipping.project/images(6).jpg" class="w-full h-full object-cover" alt="Header Image 2">
+    </div>
+  </div>
+
+  <!-- Top Nav Bar -->
+  <div class="absolute top-0 left-0 right-0 flex flex-col md:flex-row justify-between items-start md:items-center p-4 bg-blue-800 bg-opacity-80">
+    <!-- Logo -->
+    <div class="text-xl font-bold mb-2 md:mb-0">DANKACH-ACCRA (GHANA)</div>
+
+    <!-- Hamburger Button (only visible on small screens) -->
+    <div class="md:hidden ml-auto">
+      <button onclick="toggleMenu()" class="text-white focus:outline-none">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+
+    <!-- Nav Links -->
+    <nav id="mobileMenu" class="hidden flex-col space-y-2 mt-2 md:mt-0 md:flex md:flex-row md:space-y-0 md:space-x-4 text-sm md:text-base">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#track" class="hover:underline">Track</a>
+      <a href="#services" class="hover:underline">Services</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+      <a href="Login.html" class="hover:underline">Login</a>
+    </nav>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section class="relative py-4 px-2 bg-gray-100">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 relative">
+      <div class="h-40 md:h-60 overflow-hidden rounded"><img src="./shipping.project/download(3).jpg" class="w-full h-full object-cover"></div>
+      <div class="h-40 md:h-60 overflow-hidden rounded"><img src="./shipping.project/download4.jpg" class="w-full h-full object-cover"></div>
+      <div class="h-40 md:h-60 overflow-hidden rounded"><img src="./shipping.project/images(3).jpg" class="w-full h-full object-cover"></div>
+      <div class="h-40 md:h-60 overflow-hidden rounded"><img src="./shipping.project/download.jpg" class="w-full h-full object-cover"></div>
+      <div class="h-40 md:h-60 overflow-hidden rounded"><img src="./shipping.project/images4.jpg" class="w-full h-full object-cover"></div>
+  
+      <!-- Text Overlay -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="overlay-gradient w-full h-full absolute"></div>
+        <h1 class="rubik-font text-blue-900 text-center text-xl sm:text-3xl md:text-5xl font-extrabold z-10 px-4 fade-slide-up">
+          DANKACH SHIPPING AND LOGISTICS
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-6 grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+    <div class="bg-white rounded-2xl shadow p-6" data-aos="fade-up">
+      <h3 class="text-xl font-semibold mb-2">Real-time Tracking</h3>
+      <p class="text-sm text-gray-600">Track your packages anytime, anywhere.</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-6" data-aos="fade-up" data-aos-delay="100">
+      <h3 class="text-xl font-semibold mb-2">Secure Packaging</h3>
+      <p class="text-sm text-gray-600">Your items are protected every step of the way.</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-6" data-aos="fade-up" data-aos-delay="200">
+      <h3 class="text-xl font-semibold mb-2">Affordable Rates</h3>
+      <p class="text-sm text-gray-600">Get the best prices for your shipments.</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-6" data-aos="fade-up" data-aos-delay="300">
+      <h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
+      <p class="text-sm text-gray-600">Always here to help you.</p>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="bg-gray-100 py-16 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-8">How It Works</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div class="p-6 bg-white rounded-xl shadow" data-aos="zoom-in">
+        <img src="./shipping.project/create.png" class="mx-auto mb-4 w-full h-64 object-cover">
+        <div class="text-3xl font-bold text-blue-600 mb-2">1</div>
+        <p>Create an account</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow" data-aos="zoom-in" data-aos-delay="100">
+        <img src="./shipping.project/bookk.png" class="mx-auto mb-4 w-full h-64 object-cover">
+        <div class="text-3xl font-bold text-blue-600 mb-2">2</div>
+        <p>Book your shipment</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow" data-aos="zoom-in" data-aos-delay="200">
+        <img src="./shipping.project/trackk.png" class="mx-auto mb-4 w-full h-64 object-cover">
+        <div class="text-3xl font-bold text-blue-600 mb-2">3</div>
+        <p>Track in real-time</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow" data-aos="zoom-in" data-aos-delay="300">
+        <img src="./shipping.project/recieve.png" class="mx-auto mb-4 w-full h-64 object-cover">
+        <div class="text-3xl font-bold text-blue-600 mb-2">4</div>
+        <p>Receive your package</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tracking -->
+  <section id="track" class="py-16 px-6 bg-white text-center">
+    <h2 class="text-2xl font-bold mb-4">Track Your Shipment</h2>
+    <form class="max-w-xl mx-auto bg-gray-100 p-6 rounded-xl shadow space-y-4" data-aos="fade-up">
+      <input type="text" placeholder="Enter Tracking ID" class="w-full px-4 py-2 border rounded" />
+      <button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Track</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 bg-gray-100">
+    <h2 class="text-2xl font-bold text-center mb-8">Contact Us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+      <!-- Map Button -->
+      <div class="flex justify-center md:justify-start">
+        <a href="https://www.google.com/maps/place/Accra,+Ghana" target="_blank"
+           class="bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition">
+          View Map Location
+        </a>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="space-y-4 bg-white p-6 rounded-xl shadow" data-aos="fade-up">
+        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border rounded" required />
+        <input type="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded" required />
+        <textarea placeholder="Your Message" class="w-full px-4 py-2 border rounded" rows="4" required></textarea>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Send Message</button>
+      </form>
+
+      <!-- Contact Details -->
+      <div class="space-y-4 bg-white p-6 rounded-xl shadow" data-aos="fade-up">
+        <h3 class="text-lg font-semibold mb-2">Our Office</h3>
+        <p><i class="fas fa-map-marker-alt text-blue-600 mr-2"></i>Accra, Ghana</p>
+        <p><i class="fas fa-phone-alt text-blue-600 mr-2"></i>+233 54 745 0857</p>
+        <p><i class="fas fa-envelope text-blue-600 mr-2"></i>support@dankachshipping.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 px-6 bg-blue-50 text-center">
+    <h2 class="text-2xl font-bold mb-8">What Our Customers Say</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow" data-aos="fade-up">
+        <p class="italic text-gray-700">"Fast and reliable service!"</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="100">
+        <p class="italic text-gray-700">"Great customer support."</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="200">
+        <p class="italic text-gray-700">"Affordable and efficient."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media -->
+  <section class="py-8 bg-gray-100 text-center">
+    <h2 class="text-xl font-bold mb-4">Connect with Us:</h2>
+    <div class="flex justify-center space-x-6 text-3xl">
+      <a href="https://wa.me/message/I4S537DRWX4UP1" target="_blank" class="text-green-500 hover:text-green-600">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.facebook.com/hi.mster.50" target="_blank" class="text-blue-700 hover:text-blue-800">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/yohanneysuboni?igsh=YnZ4eThycjdybnJ2" target="_blank" class="text-pink-500 hover:text-pink-600">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://x.com/AYOOGH1?t=BuC_g56PdTHYPH_J63FAYg&s=09" target="_blank" class="text-blue-400 hover:text-blue-500">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.tiktok.com/@yohannuell?_t=ZM-8vmTooUPkF5&_r=1" target="_blank" class="text-black hover:text-gray-800">
+        <i class="fab fa-tiktok"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center p-4">
+    <p>&copy; 2025 DANKACH SHIPPING AND LOGISTICS. All rights reserved.</p>
+  </footer>
+  <!-- Floating Call Button -->
+      <a href="tel:+233547450857" class="fixed bottom-4 right-4 bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 z-50">
+  <i class="fas fa-phone-alt text-xl"></i>
+</a>
+       <!-- Floating AI Chatbot Button -->
+<button onclick="toggleChatbot()" class="fixed bottom-4 right-20 bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 z-50">
+  <i class="fas fa-robot text-xl"></i>
+</button>
+<!-- Chatbot Window -->
+<div id="chatbotWindow" class="fixed bottom-20 right-4 w-72 bg-white border rounded-xl shadow-lg hidden z-50">
+  <div class="bg-blue-600 text-white p-3 rounded-t-xl font-semibold">Dankach AI Assistant</div>
+  <div class="p-4 h-48 overflow-y-auto text-sm text-gray-700">
+    <p>Hello! How can I help you today?</p>
+    <!-- Chat history will go here -->
+  </div>
+  <div class="p-2 border-t flex">
+    <input type="text" placeholder="Type a message..." class="flex-grow px-3 py-1 border rounded-l focus:outline-none">
+    <button class="bg-blue-600 text-white px-3 py-1 rounded-r hover:bg-blue-700">Send</button>
+  </div>
+</div>
+<script>
+  function toggleChatbot() {
+    const chat = document.getElementById('chatbotWindow');
+    chat.classList.toggle('hidden');
+  }
+</script>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('hidden');
+  }
+</body>
+</html>
